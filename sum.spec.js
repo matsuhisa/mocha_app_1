@@ -1,10 +1,10 @@
-var chai = require('chai');
-var assert = chai.assert;
+const chai = require('chai');
+const assert = chai.assert;
 
 const sum = require('./sum');
 
-describe('テストのタイトル', function () {
-  it('sumのテスト', function(){
+describe('テストのタイトル', () => {
+  it('sumのテスト', () => {
     assert.strictEqual(sum(1,2), 3)
   });
 });
